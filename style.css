@@ -1,0 +1,62 @@
+html,body{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family: "Lato",sans-serif;
+    font-weight:  400;
+    line-height:1.8em;
+    color: #666;
+}
+
+.pimage1{
+    background-image: url(https://wallpapercave.com/wp/wp2599602.jpg);
+    min-height: 100%;
+}
+.pimage2{
+    background-image:url(https://th.bing.com/th/id/OIP.U0SfqHcCr4A3TEW4cIDGOQHaEI?pid=ImgDet&rs=1);
+    min-height:400px;
+}
+.pimage3{
+    background-image:url(https://cdn.pixabay.com/photo/2017/10/04/16/39/lake-2816802_1280.jpg) ;
+    min-height:400px;
+}
+.pimage1,
+.pimage2,.pimage3{
+
+    position:relative;
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align: center;
+    color:black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+}
+
+.textBg{
+    background: #313534;
+    color:#fff;
+    padding:20px;
+}
+
+.section{
+    padding:50px 80px;
+    text-align: center;
+}
+.section-light{
+    background-color: #f4f4f4;
+    color:#666;
+}
+.section-dark{
+    background-color: #282e34;
+    color:#ddd;
+};
